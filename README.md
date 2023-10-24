@@ -1,5 +1,5 @@
 # AQI-prediction-model
-> This model aims at predicting Air Quality Index (AQI) using Machine Learning.
+<img src="https://github.com/kscepanovic/AQI-prediction-model/assets/142613209/55374770-6509-40b1-8e78-688d27b1a989" width="600">
 
 ---
 ## Description
@@ -24,5 +24,5 @@ This prediction model can be divided into three main parts:
 ## Conclusion
 Predicting future AQI values is a challenging task because the root causes of air pollution (emissions from combustion, industrial activities, agricultural practices, etc.) are hard to track and measure. Typically, concentrations of different air pollutants are used to predict AQI values, but this model also attempted to improve predictions using meteorological data. The final data clearly showed that meteorological data improved the model's accuracy in classifying AQI values into five classes (ranging from very low to very high values). Interestingly, as all data was gathered in the area of a local garbage disposal center, it was observed that the average yearly AQI was low, indicating that there is no significant air pollution in the area, and air quality is generally very good.
 
-## Requirements
-To run this model Python 3.10 is nedded and some aditional packages listed in 'requirements.txt'.
+## Requirements and how to use the model
+Python 3.10 is needed, and some additional packages are listed in the 'requirements.txt' file. To use the model, you only need to run the 'main.py' file. All '.py' files have docstrings and comments for easier understanding of the code. Input data and outputs of the model are located in the 'Data' folder. Data visualizations can be accessed through the 'Project_report.pbix' file. 
